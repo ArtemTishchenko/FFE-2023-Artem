@@ -1,0 +1,101 @@
+.container {
+    width: 500px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "nav nav nav"
+    "main main main"
+    "views peackConcurrents totalWatchTime"
+    "chatRate avgViewDuration duration"
+    "footer footer footer"
+}
+
+.nav {
+    padding: 12px;
+    color: white;
+    background-color:#3f3c3c;
+    grid-area: nav;
+}
+
+.main {
+    position: relative;
+    width: auto;
+    height: 250px;
+    grid-area: main;
+    color: white;
+}
+
+.views {
+    padding: 10px;
+    background-color:#3f3c3c;
+    grid-area: views;
+    color: grey;
+}
+
+.peackConcurrents {
+    padding: 5px;
+    background-color:#3f3c3c;
+    grid-area: peackConcurrents;
+    color: grey;
+}
+
+.totalWatchTime {
+    padding: 5px;
+    background-color:#3f3c3c;
+    grid-area: totalWatchTime;
+    color: grey;
+}
+
+.chatRate {
+    padding: 5px;
+    background-color:#3f3c3c;
+    grid-area: chatRate;
+    color: grey;
+}
+
+.avgViewDuration {
+    padding: 5px;
+    background-color:#3f3c3c;
+    grid-area: avgViewDuration;
+    color: grey;
+}
+
+.duration {
+    padding: 5px;
+    background-color:#3f3c3c;
+    grid-area: duration;
+    color: grey;
+}
+
+.numbers {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+
+.image {
+    height: 100%;
+    width: 100%;
+}
+
+.imgtext {
+    position: absolute;
+    bottom: 12px;
+    left: 16px;
+    font-size: 18px;
+
+}
+
+.btn {
+    margin: 5px;
+}
+.footer {
+    text-align: right;
+    padding: 5px;
+    background-color:#3f3c3c;
+    grid-area: footer;
+}
+

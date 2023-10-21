@@ -1,0 +1,42 @@
+.container {
+    width: 980px;
+    background-color: black;
+    color: aliceblue;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "nav nav"
+    "afisha afisha"
+    "filter films";
+}
+
+.header {
+    padding: 5px;
+    border: 1px solid white;
+    grid-area: header;
+}
+
+.nav {
+    padding: 5px;
+    border: 1px solid white;
+    grid-area: nav;
+}
+
+.afisha {
+    padding: 5px;
+    border: 1px solid white;
+    grid-area: afisha;
+}
+
+.filter {
+    padding: 5px;
+    border: 1px solid white;
+    grid-area: filter;
+}
+
+.films {
+    padding: 5px;
+    border: 1px solid white;
+    grid-area: films;
+}
