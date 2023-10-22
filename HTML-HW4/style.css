@@ -1,4 +1,5 @@
 .container {
+    border-radius: 25px;
     width: 500px;
     margin: 0 auto;
     display: grid;
@@ -15,8 +16,9 @@
 .nav {
     padding: 12px;
     color: white;
-    background-color:#3f3c3c;
+    background-color:#2a2828;
     grid-area: nav;
+    font-weight: bold;
 }
 
 .main {
@@ -28,48 +30,49 @@
 }
 
 .views {
-    padding: 10px;
-    background-color:#3f3c3c;
+    padding: 15px;
+    background-color:#2a2828;
     grid-area: views;
     color: grey;
 }
 
 .peackConcurrents {
-    padding: 5px;
-    background-color:#3f3c3c;
+    padding: 15px;
+    background-color:#2a2828;
     grid-area: peackConcurrents;
     color: grey;
 }
 
 .totalWatchTime {
-    padding: 5px;
-    background-color:#3f3c3c;
+    padding: 15px;
+    background-color:#2a2828;
     grid-area: totalWatchTime;
     color: grey;
 }
 
 .chatRate {
-    padding: 5px;
-    background-color:#3f3c3c;
+    padding: 15px;
+    background-color:#2a2828;
     grid-area: chatRate;
     color: grey;
 }
 
 .avgViewDuration {
-    padding: 5px;
-    background-color:#3f3c3c;
+    padding: 15px;
+    background-color:#2a2828;
     grid-area: avgViewDuration;
     color: grey;
 }
 
 .duration {
-    padding: 5px;
-    background-color:#3f3c3c;
+    padding: 15px;
+    background-color:#2a2828;
     grid-area: duration;
     color: grey;
 }
 
 .numbers {
+    padding: 5px;
     font-size: 22px;
     font-weight: bold;
     color: white;
@@ -89,13 +92,29 @@
 
 }
 
-.btn {
+.btn1 {
+    color: gray;
     margin: 5px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
 }
+
+.btn2 {
+    margin: 5px;
+    background-color: rgb(56, 175, 214);
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+
 .footer {
     text-align: right;
-    padding: 5px;
-    background-color:#3f3c3c;
+    padding: 10px;
+    background-color:#2a2828;
     grid-area: footer;
 }
 
